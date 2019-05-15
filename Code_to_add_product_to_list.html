@@ -1,0 +1,140 @@
+<html>
+<head>
+
+<style>
+
+
+
+	#header{
+  background:linear-gradient(-90deg, #81cad6, #90ff99);
+  border-bottom: 1px gray solid;
+  padding: 0px 20px 20px 30px;
+  margin-top: 250px;
+	margin-right:100px;
+		margin-left: 100px;
+		
+  text-align:center;
+	}
+	
+#inputText {
+ border-radius:4px;
+  border: solid gray 2px;
+  padding:5px;
+  }
+  button {
+    display:inline-block;
+      background-color: gray;
+    border: solid gray 2px;
+    border-radius:4px;
+    color:white;
+    padding:5px;
+  }
+
+
+#list{
+  text-decoration:none;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+	}
+	li {
+     text-decoration:none;
+		text-align:center;
+      padding: 10px;
+    font-weight:bold;
+  }
+  
+  
+    .check {
+  text-decoration: line-through;
+      background-color: grey !important;
+      color:white;
+			 
+	margin-right:100px;
+		margin-left: 100px;
+}
+
+
+span.close {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+<div id="header">
+  <h2>Add an Item You Want to Shop</h2>
+  <input id="inputText" type="text" placeholder = "Add items to shop">
+  <button onclick="addToList()">add Product </button>
+  <input type="button" onclick="printDiv('printableArea')" value="print the list!" />
+
+  </div>
+<div id = "printableArea">
+<ul id="list">
+
+</ul>
+</div>
+</body>
+
+<script>
+
+//add  value to list item and have it display
+
+function addToList() {
+  //get value from input
+  var value = document.getElementById("inputText").value;
+  //alert that the text box is empty
+  if (value.trim() === "") {
+    alert('To add an item, type its name into the box')
+  }
+  else {
+    //create a list item element
+
+  var li = document.createElement("li");
+  var textNode = document.createTextNode(value);
+  
+  //append value to list item
+  li.appendChild(textNode);
+  document.getElementById("list").appendChild(li);
+  li.className = "item";
+  
+  //add an X to each list item
+  var close=document.createElement("SPAN");
+  var closeNode =document.createTextNode("X");
+  close.appendChild(closeNode);
+  li.appendChild(close);
+  close.className= "close";
+  };
+};
+
+//have X remove list item on click
+  document.body.addEventListener("click", function(event) {
+    if (event.target.className == "close")
+      event.target.parentElement.style.display="none";
+  });
+
+//when an li is clicked toggle class which either adds or removes linethrough
+  document.body.addEventListener("click", function(event) {
+    if (event.target.tagName == "LI")
+      event.target.classList.toggle("check");
+  });
+
+function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script>
+</html>
