@@ -1,0 +1,43 @@
+---
+title: "ShinyToWordPress"
+author: "METHUKU SAI KIRAN REDDY"
+date: "06/04/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+if (!require('knitr')) {
+  install.packages("knitr")
+}
+if (!require('devtools')) {
+  install.packages("devtools")
+}
+if (!require('RWordPress')) {
+  devtools::install_github(c("duncantl/XMLRPC", "duncantl/RWordPress"))
+}
+
+
+
+```
+
+
+```{r}
+library(XMLRPC)
+library(RWordPress)
+library(rmarkdown)
+library(knitr)
+options(WordpressLogin = c('user' = 'bFcQlZ3zVX99'),
+        WordpressURL = 'https://www.thinkfoodchange.tk/xmlrpc.php')
+
+```
+
+
+```{r}
+options(WordpressLogin = c(user = 'bFcQlZ3zVX99'),
+        WordpressURL = 'https://www.thinkfoodchange.tk/xmlrpc.php')
+knit2wp('app.R', title = 'Create blog posts from RStudio to Wordpress',postID = '114',publish = FALSE)
+
+```
+```{r}
+getwd()
+```

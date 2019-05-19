@@ -1,0 +1,96 @@
+,            Australian Bureau of Statistics,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+0,,Lowest,Second,Third,Fourth,Highest,
+1,AVERAGE WEEKLY EXPENDITURE ($),,,,,,
+2,Goods and services,,,,,,
+3,Current housing costs (selected dwelling),166.76,209.17,258.37,284.8,374.7,256.78
+4,Domestic fuel and power,39.08,43.61,45.18,49.55,52.79,45.94
+5,Food and non-alcoholic beverages,148.31,204.76,256.42,274.34,348.08,243.98
+6,Alcoholic beverages,13.39,23.26,30.09,38.48,59.34,32.46
+7,Tobacco products,10.22,17.04,18.76,18.52,13.41,15.02
+8,Clothing and footwear,18.46,34.03,44.87,50.16,87.19,46.54
+9,Household furnishings and equipment,26.67,46.98,63.4,54.71,90.77,53.88
+10,Household services and operation,20.35,30.85,34.8,57.54,65.73,41
+11,Medical care and health expenses,40.68,56.94,77.49,92.03,130.04,78.48
+12,Transport,100.73,156.07,204.28,261.71,393.45,218.3
+13,Communication,31.34,43.29,52.24,53.97,63.27,48.16
+14,Recreation,69.06,120.48,174.18,188.37,308.76,168.74
+15,Education,20.51,33.57,43.26,42.06,105.19,49.34
+16,Personal care,15.69,23.38,29.32,34.62,46.24,29.77
+17,Miscellaneous goods and services,48.3,50.79,78.98,126.03,188.63,96.12
+18,Total goods and services expenditure,772.02,1116.9,1388.79,1621.23,2352,1429.93
+19,Selected other payments,,,,,,
+20,Income tax,13.91,97.76,230.82,407.06,1145.24,372.18
+21,Mortgage repayments – principal (selected dwelling),22.11,34.72,56.01,96.48,115.39,63.23
+22,Other capital housing costs,59.11,62.54,67.98,174.83,135.07,101.68
+23,Superannuation and life insurance,10.99,17.26,38.52,72.06,256.35,78.09
+24,PROPORTION OF TOTAL GOODS AND SERVICES EXPENDITURE (%),,,,,,
+25,Goods and services,,,,,,
+26,Current housing costs (selected dwelling),21.6,18.7,18.7,17.8,16,18
+27,Domestic fuel and power,5.1,3.9,3.3,3.1,2.2,3.2
+28,Food and non-alcoholic beverages,19.2,18.2,18.6,17.1,14.8,17.1
+29,Alcoholic beverages,1.7,2.1,2.2,2.4,2.5,2.3
+30,Tobacco products,1.3,1.5,1.4,1.2,0.6,1.1
+31,Clothing and footwear,2.4,3,3.3,3.1,3.7,3.3
+32,Household furnishings and equipment,3.5,4.2,4.6,3.4,3.8,3.8
+33,Household services and operation,2.6,2.7,2.5,3.5,2.8,2.9
+34,Medical care and health expenses,5.3,5.1,5.6,5.7,5.5,5.5
+35,Transport,13,13.8,14.7,16.1,16.8,15.3
+36,Communication,4.1,3.9,3.8,3.3,2.7,3.4
+37,Recreation,9,10.7,12.7,11.7,13.1,11.8
+38,Education,2.7,3,3.1,2.6,4.5,3.4
+39,Personal care,2,2.1,2.1,2.1,2,2.1
+40,Miscellaneous goods and services,6.3,4.5,5.8,7.9,8,6.7
+41,Total goods and services expenditure,100,100,100,100,100,100
+42,*  estimate has a relative standard error of 25% to 50% and should be used with caution,,,,,,
+43,**  estimate has a relative standard error greater than 50% and is considered too unreliable for general use,,,,,,
+44,"Cells in this table containing 2015–16 data have been randomly adjusted (by perturbation) to avoid the release of confidential data. Discrepancies may occur between sums of the component items and totals. Differences may occur between tables only where estimates are produced for different units (e.g. person, household or expenditure units). See Explanatory Notes for more information",,,,,,
+45,Australian Bureau of Statistics,,,,,,
+46,"65300DO015_201516 Household Expenditure Survey, Australia: Summary of Results, 2015–16",,,,,,
+47,Released at 11.30 am (CANBERRA TIME) 26 July 2018,,,,,,
+48,"Table 15.1 HOUSEHOLD EXPENDITURE, Broad expenditure groups, Equivalised disposable household income quintiles, Vic. – Relative standard errors (%)",,,,,,
+49,,EQUIVALISED DISPOSABLE HOUSEHOLD INCOME QUINTILES,,,,,All households
+50,,Lowest,Second,Third,Fourth,Highest,
+51,RELATIVE STANDARD ERROR OF AVERAGE WEEKLY EXPENDITURE (%),,,,,,
+52,Goods and services,,,,,,
+53,Current housing costs (selected dwelling),3.3,4.8,5.6,3.9,5.5,1.9
+54,Domestic fuel and power,3,3.6,3.2,3.6,4.7,1.6
+55,Food and non-alcoholic beverages,3.7,4.4,3.5,3.6,4,1.3
+56,Alcoholic beverages,12.1,14.8,7.8,10.4,7.9,3.9
+57,Tobacco products,15.5,13.6,17.9,17.3,23.7,8.1
+58,Clothing and footwear,10,12.9,11.8,18.2,9.1,5.5
+59,Household furnishings and equipment,9.9,27.2,13,8,9.8,7.4
+60,Household services and operation,9,19.3,10.3,11.9,12,6.2
+61,Medical care and health expenses,6.8,7.7,9.3,7.2,5.7,2.9
+62,Transport,6.8,8.4,6.8,5.3,8.2,3.5
+63,Communication,4.3,4.6,5.5,3,4.1,2
+64,Recreation,8.2,10.3,7.3,6.6,6.8,3.6
+65,Education,21.6,34.3,18.2,16.4,24,11.6
+66,Personal care,11.5,14.4,9.3,8.2,7.8,4
+67,Miscellaneous goods and services,13.9,8.1,7,17.6,8.9,6.5
+68,Total goods and services expenditure,2.7,4.1,3.2,3,3.7,1.3
+69,Selected other payments,,,,,,
+70,Income tax,17.6,7.5,4.8,3.3,8.8,5.2
+71,Mortgage repayments – principal (selected dwelling),16.8,13.6,12.3,9.4,10.1,4.8
+72,Other capital housing costs,np,49,45.6,24.6,40,19.4
+73,Superannuation and life insurance,36.1,20.7,21.6,18.2,15.1,11.6
+74,RELATIVE STANDARD ERROR OF PROPORTION OF TOTAL GOODS AND SERVICES EXPENDITURE (%),,,,,,
+75,Goods and services,,,,,,
+76,Current housing costs (selected dwelling),1.9,2.5,4.5,2.6,4.1,1.4
+77,Domestic fuel and power,1.3,8.4,0,2,2.9,0.9
+78,Food and non-alcoholic beverages,2.6,1.6,1.1,2,1.5,0
+79,Alcoholic beverages,11.8,14.3,7,10,7,3.7
+80,Tobacco products,15.3,13,17.6,17.1,23.4,8
+81,Clothing and footwear,9.6,12.2,11.3,18,8.3,5.3
+82,Household furnishings and equipment,9.4,26.9,12.6,7.5,9.2,7.3
+83,Household services and operation,8.6,18.9,9.8,11.6,11.3,6.1
+84,Medical care and health expenses,6.3,6.5,8.7,6.7,4.2,2.6
+85,Transport,6.2,7.5,6,4.3,7.3,3.2
+86,Communication,3.5,2,4.5,0,1.9,1.5
+87,Recreation,7.7,9.4,6.5,5.9,5.8,3.4
+88,Education,21.5,34,17.9,16.1,23.8,11.5
+89,Personal care,11.2,13.9,8.7,7.7,7,3.8
+90,Miscellaneous goods and services,13.7,7.1,6.2,17.4,8.1,6.4
+91,Total goods and services expenditure,0,0,0,0,0,0
+92,np not available for publication but included in totals where applicable,,,,,,
+93,"Cells in this table containing 2015–16 data have been randomly adjusted (by perturbation) to avoid the release of confidential data. Discrepancies may occur between sums of the component items and totals. Differences may occur between tables only where estimates are produced for different units (e.g. person, household or expenditure units). See Explanatory Notes for more information",,,,,,
+94,© Commonwealth of Australia 2018,,,,,,

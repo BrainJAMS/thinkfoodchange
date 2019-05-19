@@ -1,0 +1,11 @@
+Income,type,wastage
+500,Food,125
+700,Food,150
+900,Food,165
+1100,Food,187
+1300,Food,205
+500,Food Wastage,25
+700,Food Wastage,30
+900,Food Wastage,33
+1100,Food Wastage,37.5
+1300,Food Wastage,41

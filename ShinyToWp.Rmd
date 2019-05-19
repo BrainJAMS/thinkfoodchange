@@ -1,0 +1,56 @@
+---
+title: "DeployingToShiny.io"
+author: "METHUKU SAI KIRAN REDDY"
+date: "06/04/2019"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+
+library(ggplot2)
+#library(plyr)
+library(shiny)
+
+data = read.csv("dataset1.csv")
+names(data)[names(data) == "wastage"] <- "Expenditure"
+
+
+#shiny 
+interface = (fluidPage(id = 'shiny',
+                       titlePanel("Relationship between income and food wastage Expenditure"),
+                       fluidRow(sidebarPanel(id = 'sidebar',selectInput("Income","Income",choices = data$Income))),
+                       fluidRow(mainPanel(   
+                         tabsetPanel(tabPanel("Relationship between Income and Expenditu")),
+                         splitLayout(cellWidths = c("60%","40%"),plotOutput('mplot', height = "600"))
+                                  
+                         ))))
+
+#Server function
+serverFn = (function(input,output)
+{
+  
+  output$mplot = renderPlot({ggplot(data=data[data$Income == input$Income,], aes(x=type, y=Expenditure, fill=type)) +
+      geom_bar(stat="identity")})
+}
+)
+shinyApp(ui=interface, server=serverFn)
+
+
+```
+
+```{r}
+library(rsconnect)
+Sys.setlocale(locale="en_US.UTF-8")
+```
+
+```{r}
+rsconnect::setAccountInfo(name='saikiran',
+			  token='EC90F1FB57254951FB1018DA81027A1B',
+			  secret='ZbF/3MQoi7muLncFtr1KqXl53+kQ7g3e1LR59wcV')
+```
+
+```{r}
+```tags$head(
+                         tags$style(type='text/css', 
+                                    ".nav-tabs {font-size: 20px} ")), 
